@@ -61,9 +61,11 @@ export const Hero = () => {
 
                         {/* Call to Action Buttons */}
                         <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+                            <a href="https://linkedin.com/in/sandhiya-radhaharan" target="_blank" rel="noopener noreferrer">
                             <Button size="lg">
                                 LinkedIn <ArrowBigRight className="w-5 h-5" />
                             </Button>
+                            </a>
                             <AnimatedBorderButton href="/resume.pdf" download>
                                         <Download className="w-5 h-5"  />
                                         Download Resume
